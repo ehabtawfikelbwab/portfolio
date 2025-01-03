@@ -1,0 +1,162 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.8;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.sidebar {
+    background: linear-gradient(to bottom, #333333, #555555);
+    color: #ffffff;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 10px 0 0 10px;
+}
+
+.main {
+    flex: 2;
+    padding: 20px;
+    color: #333;
+    border-radius: 0 10px 10px 0;
+}
+
+.photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.photo img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    border-bottom: 4px solid #e0e0e0;
+    padding-bottom: 5px;
+    color: #444;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.job-title {
+    color: #ffffffc5;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+li i {
+    margin-right: 5px;
+    font-size: 18px;
+    min-width: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main li i {
+    color: #555;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills .skill-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.skills .skill-bar {
+    background-color: #ddd;
+    height: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-bar .high {
+    height: 100%;
+    background: linear-gradient(to right, #333333, #a7a7a7);
+    width: 100%;
+}
+
+.skill-bar .medium {
+    height: 100%;
+    background: linear-gradient(to right, #333333, #a7a7a7);
+    width: 80%;
+}
+
+.details span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.details span i {
+    margin-right: 5px;
+    min-width: 30px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ffffff;
+    border-bottom: 4px solid #ffffffa6;
+}

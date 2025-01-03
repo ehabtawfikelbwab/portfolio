@@ -83,6 +83,7 @@ nav a:hover {
 }
 
 .about p {
+    height: 260px;
     max-width: 820px;
     font-size: 0.95rem;
     line-height: 1.6;

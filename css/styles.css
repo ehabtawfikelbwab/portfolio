@@ -108,6 +108,11 @@ nav a:hover {
     cursor: pointer;
 }
 
+.project-card:hover {
+    transform: translateY(-10px); /* Make the card move upwards */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15); /* Enhance the shadow */
+}
+
 .project-card img {
     max-width: 100%;
     object-fit: cover;
